@@ -8,7 +8,7 @@ public class TC_001 {
 	@Test
 	public void testcase1()
 	{
-		System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
+		System.setProperty("webdriver.gecko.driver",/home/eoxys/Downloads/firefoxdriver/geckodriver");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
