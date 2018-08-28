@@ -13,7 +13,7 @@ public class TC_001 {
 		driver.get("http://www.facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
 		driver.findElementById("pass").sendKeys("Hello");
-		driver.findElement(By.xpath("//*[@id="loginbutton"]")).click();
+		driver.findElementById("loginbutton").click();
 		driver.quit();
 	}
 	
