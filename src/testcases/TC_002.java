@@ -8,12 +8,12 @@ public class TC_002 {
 	@Test
 	public void testcase1()
 	{
-		System.setProperty("webdriver.chrome.driver","C:/Users/New/Desktop/chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
-		driver.get("http://www.facebook.com");
-		driver.findElementById("email").sendKeys("Hello");
-		driver.findElementById("pass").sendKeys("Hello");
-		driver.quit();
+		System.setProperty("WebDriver.Chrome.driver", "E://chromedriver");
+		ChromeDriver driver= new ChromeDriver();
+		driver.get("http://54.144.210.255:8081/");
+		driver.findElementById("inputEmail3").sendKeys("info@roboapp.com");
+		driver.findElementById("inputPassword3").sendKeys("Hello");
+		driver.findElementByXPath("//*[@id=\"loginForm\"]/div[3]/div/button").click();
 	}
 	
 	
