@@ -14,9 +14,6 @@ public class TC_002 {
 		driver.findElementById("inputEmail3").sendKeys("info@roboapp.com");
 		driver.findElementById("inputPassword3").sendKeys("Super123");
 		driver.findElementByXPath("//*[@id="loginForm"]/div[3]/div/button").click();
-		driver.findElementByXPath("//*[@id="loginForm"]/div[4]/div/button[1]").click();
-		driver.findElementByXpath("/html/body/main/ba-sidebar/aside/div[1]/ul/li[2]/a/span").click();
-		driver.findElementByXpath("//*[@id="view_0"]").click();
 		
 	}
 	
