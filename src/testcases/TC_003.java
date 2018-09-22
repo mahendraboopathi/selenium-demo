@@ -10,14 +10,10 @@ public class TC_003 {
 	{
 		System.setProperty("webdriver.chrome.driver","C:/Users/New/Desktop/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("http://54.144.210.255:8081/");
-	        WebElement id = driver.findElement(By.name("username"));
-                WebElement pass = driver.findElement(By.name("password"));
-                WebElement button = driver.findElement(By.xpath("//*[@id="loginForm"]/div[3]/div/button"));         
-
-                id.sendKeys("info@roboapp.com");
-                pass.sendKeys("Super123");
-                button.submit();
+		driver.get("http://www.facebook.com");
+		driver.findElementById("email").sendKeys("Hello");
+		driver.findElementById("pass").sendKeys("Hello");
+		driver.quit();
     }
 	}
 	
