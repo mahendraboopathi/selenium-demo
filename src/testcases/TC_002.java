@@ -16,14 +16,14 @@ public class TC_002 {
 		
 		driver.findElementByName("username").sendKeys("info@roboapp.com");
 		 driver.findElementByName("password").sendKeys("Super123");
-		 driver.findElementByXpath("//button[@type='submit']").click();
+// 		 driver.findElementByXpath("//button[@type='submit']").click();
 		 try {
 			Thread.sleep(8000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		 driver.findElement(By.xpath("//button[@type='submit']")).submit();
+// 		 driver.findElement(By.xpath("//button[@type='submit']")).submit();
 	       
 	
 	}
