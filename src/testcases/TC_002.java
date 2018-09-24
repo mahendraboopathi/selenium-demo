@@ -13,7 +13,8 @@ public class TC_002 {
 		driver.get("http://54.144.210.255:8081/");
 		driver.findElementById("inputEmail3").sendKeys("info@roboapp.com");
 		driver.findElementById("inputPassword3").sendKeys("Super123");
-		driver.findElementByXpath("//*[@id="loginForm"]/div[3]/div/button").click();
+		driver.findElement(By.xpath("//*[@id="loginForm"]/div[3]/div/button")).click();
+// 		driver.findElementByXpath("//*[@id="loginForm"]/div[3]/div/button").click();
 	       
 	
 	}
