@@ -15,9 +15,9 @@ public class TC_002 {
 		driver.manage().window().maximize();
 		
 		
-		driver.findElementByName("username").sendKeys("info@roboapp.com");
-		 driver.findElementByName("password").sendKeys("Super123");
-		  driver.findElement(By.xpath("//button[@type='submit']")).click();
+		driver.findElement(By.name("username")).sendKeys("info@roboapp.com");
+		 driver.findElement(By.name("password")).sendKeys("Super123");
+		 driver.findElement(By.xpath("//button[@type='submit']")).click();
 		 try {
 			Thread.sleep(8000);
 		} catch (InterruptedException e) {
