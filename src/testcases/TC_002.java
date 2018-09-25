@@ -46,7 +46,7 @@ public class TC_002 {
 			e.printStackTrace();
 		}
 		driver.findElement(By.xpath("//*[@id="app_0"]/td[1]/div/div/div/div[2]/div/div[2]/div[4]/span/ul/li[2]/button")).click();
-		
+                driver.quit();		
 		 
 		
 	       
