@@ -31,7 +31,7 @@ public class TC_002 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		 driver.findElement(By.xpath("/html/body/main/ba-sidebar/aside/div[1]/ul/li[2]/a/span")).click();
+		 driver.findElement(By.xpath("/html/body/main/ba-sidebar/aside/div[1]/ul/li[2]/a")).click();
 		 try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -45,7 +45,7 @@ public class TC_002 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		driver.findElement(By.xpath("//*[@id="app_0"]/td[1]/div/div/div/div[2]/div/div[2]/div[4]/span/ul/li[2]/button")).click();
+// 		driver.findElement(By.xpath("//*[@id="app_0"]/td[1]/div/div/div/div[2]/div/div[2]/div[4]/span/ul/li[2]/button")).click();
                 driver.quit();		
 		 
 		
