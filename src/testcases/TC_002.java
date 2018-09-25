@@ -38,14 +38,14 @@ public class TC_002 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-// 		 driver.findElement(By.xpath("//*[@id="view_0"]")).click();
-// 		 try {
-// 			Thread.sleep(8000);
-// 		} catch (InterruptedException e) {
-// 			// TODO Auto-generated catch block
-// 			e.printStackTrace();
-// 		}
-// 		driver.findElement(By.xpath("//*[@id="app_0"]/td[1]/div/div/div/div[2]/div/div[2]/div[4]/span/ul/li[2]/button")).click();
+ 		 driver.findElement(By.id("view_0")).click();
+ 		 try {
+ 			Thread.sleep(8000);
+ 		} catch (InterruptedException e) {
+ 			// TODO Auto-generated catch block
+ 			e.printStackTrace();
+		}
+ 		driver.findElement(By.xpath("//button[@type='button']")).click();
                 driver.quit();		
 		 
 		
