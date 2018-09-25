@@ -31,7 +31,7 @@ public class TC_002 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		 driver.findElement(By.xpath("/html/body/main/ba-sidebar/aside/div[1]/ul/li[2]/a")).click();
+		 driver.findElement(By.xpath("//span[text()='Applications']")).click();
 		 try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
